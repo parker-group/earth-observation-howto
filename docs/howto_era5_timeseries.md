@@ -83,5 +83,5 @@ c.retrieve(
 
 ## QC & Tips
 - ERA5-Land resolution: ~9 km.  
-- Always document whether values are aggregated over an AOI (polygon mean) or extracted at a point.  
+- Always document whether values are aggregated over an AOI (polygon mean) or extracted at a point. We normally extract to a polygon, and if we start with point data we draw a buffer around that point and extract to the buffer polygon. How big should that buffer be? See my repo/blog on [activity spaces](https://github.com/DMParker1/activity-spaces) for some thoughts on this.
 - Use consistent temporal coverage across variables before merging.  
