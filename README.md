@@ -21,11 +21,10 @@ This repository complements project-specific repos (e.g. [Kinshasa_EO](https://g
 - [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — broader storytelling hub with background, publications, and case studies  
 
 ---
-## 📂 Additional PDF Guides
+## 📂 Additional Miscellaneous Guides
 
-For now I’m also sharing some quickstart tutorials as PDFs:
-
-- [Download SRTM DEM from EarthExplorer (PDF)](pdf-guides/EarthExplorer_SRTM_DEM.pdf)
+Some extra quickstart tutorials are shared as PDFs here:  
+👉 [pdf-guides/](https://github.com/parker-group/earth-observation-howto/tree/main/pdf-guides)
 
 ---
 
