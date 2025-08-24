@@ -31,6 +31,10 @@ Example: `NDV_23_123`, `LST_23_197`, `TMP_22_015`
 library(stringr)
 library(lubridate)
 
+# process_raster_data()
+# Original concept/code: Catalina Medina (https://github.com/CatalinaMedina/aedes-serology)
+# Adapted for general raster time series use (e.g., MODIS, ERA5, Landsat)
+
 process_raster_data <- function(
   df_og,             # data frame with non-raster cols followed by raster cols
   var_names,         # vector of variable names (for clarity; currently unused internally)
@@ -106,3 +110,10 @@ A    -4.3  15.3  2023-05-03  LST        302.1
    👉 See [How-to: Zonal statistics (time series)](howto_zonal_stats_timeseries.md)  
 3. **Convert wide → long** with this guide (adds `date`, `var_type`, `value`).  
 4. Merge with GPS/survey/health data and proceed with time-series analysis.
+
+---
+
+## Attribution
+
+The original version of this helper function was authored by [Catalina Medina](https://github.com/CatalinaMedina) as part of the [aedes-serology](https://github.com/CatalinaMedina/aedes-serology) project.  
+This adaptation generalizes the approach for any raster-derived time series (e.g., MODIS, ERA5, Landsat) and is maintained here with attribution.
