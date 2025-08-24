@@ -16,7 +16,7 @@ Obtain ERA5-Land 2m temperature and total precipitation for an area of interest 
 **Why:** simple global access, efficient aggregation, direct export to Google Drive.  
 
 ```js
-// Define your AOI (geometry or FeatureCollection)
+// Define your AOI (Area of Interest - geometry or FeatureCollection)
 var aoi = /* your AOI polygon */;
 
 // ERA5-Land hourly
