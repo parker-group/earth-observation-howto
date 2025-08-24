@@ -49,15 +49,14 @@ var months = ee.List.sequence(2022, 2023).map(function(y){
 
 ## Path 2 — Copernicus CDS API (direct pull)
 
+**Why:** works outside Earth Engine; reproducible server-side scripts.  
+**Cons:** setup requires a CDS account + API key; queue times for large requests.
+
 You run these scripts locally in **Python** (via `cdsapi`) or **R** (via `ecmwfr`) — for example in a terminal, Jupyter notebook, or RStudio session.  
 
 Before use, you must [register for a free Copernicus CDS account](https://cds.climate.copernicus.eu/) and configure your API key (`.cdsapirc` for Python or `.ecmwfr.yml` for R) to allow authentication.  
 
 Once set up, the scripts will download ERA5 files (usually NetCDF) directly to your working directory or server.
-
-
-**Why:** works outside Earth Engine; reproducible server-side scripts.  
-**Cons:** setup requires a CDS account + API key; queue times for large requests.
 
 - **Python:** [`cdsapi`](https://pypi.org/project/cdsapi/)  
 - **R:** [`ecmwfr`](https://github.com/bluegreen-labs/ecmwfr)  
