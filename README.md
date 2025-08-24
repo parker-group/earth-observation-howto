@@ -22,4 +22,7 @@ This repository complements project-specific repos (e.g. [Kinshasa_EO](https://g
 
 ---
 
+I like the practical and philosophical approaches detailed in this paper by Mahood et al. (2023): [*Ten simple rules for working with high-resolution remote sensing data*](https://peercommunityjournal.org/item/10_24072_pcjournal_223/).
+
+
 👤 Maintained by the [Parker Group](https://github.com/parker-group)
