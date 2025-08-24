@@ -2,11 +2,11 @@
 
 Practical, reusable guides for working with environmental and remote-sensing data in public health research.
 
-This repository complements case-study repos (e.g. [Kinshasa_EO](https://github.com/parker-group/Kinshasa_EO)) by providing **step-by-step methods** that can be applied anywhere.
+This repository complements project-specific repos (e.g. [Kinshasa_EO](https://github.com/parker-group/Kinshasa_EO)) by providing **step-by-step guides** that can be applied anywhere.
 
 ---
 
-## 📖 Available Guides
+## 📖 Available How-To Guides
 
 - [Weather station data (NOAA ISD)](docs/howto_weather_station_ISD.md)  
 - [ERA5-Land monthly time series](docs/howto_era5_timeseries.md)  
@@ -15,4 +15,11 @@ This repository complements case-study repos (e.g. [Kinshasa_EO](https://github.
 
 ---
 
-👤 Maintained by the Parker Group (`parker-group`)
+## 🔗 Related Repositories
+
+- [Kinshasa_EO](https://github.com/parker-group/Kinshasa_EO) — urban EO workflows for Kinshasa, DRC  
+- [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — broader storytelling hub with background, publications, and case studies  
+
+---
+
+👤 Maintained by the [Parker Group](https://github.com/parker-group)
