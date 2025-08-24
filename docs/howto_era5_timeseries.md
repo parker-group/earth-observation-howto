@@ -1,7 +1,7 @@
 # 🛰️ How-to: Extract ERA5-Land Climate Time Series
 
 ## Goal
-Obtain ERA5-Land 2m temperature and total precipitation for an area of interest (AOI), aggregated to monthly time series.
+Obtain ERA5-Land temperature and total precipitation for an area of interest (AOI), aggregated to monthly time series. 
 
 ---
 
