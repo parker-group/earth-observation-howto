@@ -21,6 +21,13 @@ This repository complements project-specific repos (e.g. [Kinshasa_EO](https://g
 - [earth-observation-hub](https://github.com/DMParker1/earth-observation-hub) — broader storytelling hub with background, publications, and case studies  
 
 ---
+## 📂 Additional PDF Guides
+
+For now I’m also sharing some quickstart tutorials as PDFs:
+
+- [Download SRTM DEM from EarthExplorer (PDF)](pdf-guides/EarthExplorer_SRTM_DEM.pdf)
+
+---
 
 > I like the practical and philosophical approaches detailed in this paper by Mahood et al. (2023): [*Ten simple rules for working with high-resolution remote sensing data*](https://peercommunityjournal.org/item/10_24072_pcjournal_223/).
 
