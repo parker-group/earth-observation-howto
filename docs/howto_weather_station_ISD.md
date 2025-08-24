@@ -26,6 +26,7 @@ Pull hourly ISD observations for one or more stations and summarize to daily/mon
 library(rnoaa); library(dplyr); library(lubridate); library(readr)
 
 # 1) Search stations near a point (Kinshasa example)
+####returns all ISD stations within 150 km of (-4.325, 15.322) on the Earth’s surface.
 stns <- isd_stations_search(lat = -4.325, lon = 15.322, radius = 150)
 print(stns[, c("name","usaf","wban")])
 
