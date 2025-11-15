@@ -12,7 +12,7 @@ This repository complements project-specific repos (e.g. [Kinshasa_EO](https://g
 - [ERA5-Land monthly time series](docs/howto_era5_timeseries.md)  
 - [Zonal statistics (single raster)](docs/howto_zonal_stats_single.md)  
 - [Zonal statistics (time series)](docs/howto_zonal_stats_timeseries.md)
-- [Raster wide→long reshaping](docs/howto_raster_widelong.md)  
+- [Wide→long reshaping](docs/howto_raster_widelong.md)  
 
 ---
 
